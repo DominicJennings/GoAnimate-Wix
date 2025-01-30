@@ -93,7 +93,6 @@ module.exports = function (req, res, url) {
 					ctc: "go",
 					tlang: "en_US",
 					lid: 13,
-					isWixPaid: 0,
 				},
 				allowScriptAccess: "always",
 				movie: process.env.SWF_URL + "/cc_browser.swf", // 'cc_browser.swf'
